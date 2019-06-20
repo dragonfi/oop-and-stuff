@@ -27,7 +27,12 @@ namespace NoObjects {
 
   class Vector {
   public:
-    Vector(double x, double y) {};
+    Vector(double x, double y) {
+      this->x = x;
+      this->y = y;
+    };
+  private:
+    double x, y;
   };
 };
 //-------------------------------------------------
