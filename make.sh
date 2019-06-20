@@ -1,2 +1,2 @@
 #!/bin/bash
-g++ main.cpp -o main
+clang++ main.cpp -o main
